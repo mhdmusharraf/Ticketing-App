@@ -11,7 +11,7 @@ const StatusDisplay = ({status}) => {
       case "in progress":
         color = "bg-yellow-200";
         return color;
-      case "completed":
+      case "done":
         color = "bg-green-200";
         return color;
       
